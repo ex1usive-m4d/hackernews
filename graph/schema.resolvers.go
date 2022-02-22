@@ -6,9 +6,6 @@ package graph
 import (
 	"context"
 	"fmt"
-
-	"github.com/ex1usive-m4d/hackernews/graph/generated"
-	"github.com/ex1usive-m4d/hackernews/graph/model"
 )
 
 func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) (*model.Todo, error) {

@@ -12,5 +12,8 @@
 *.out
 
 hackernews
+/graph/schema.graphqls
+server.go
+gqlgen.go
 # Dependency directories (remove the comment below to include it)
 # vendor/
